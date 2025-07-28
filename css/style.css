@@ -1,44 +1,43 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header {
+header, footer {
     background-color: #003366;
     color: white;
-    padding: 1em;
     text-align: center;
-}
-nav a {
-    color: white;
-    margin: 0 1em;
-    text-decoration: none;
+    padding: 1em;
 }
 main {
     padding: 2em;
 }
-footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 1em;
-}
 .hero {
     text-align: center;
+    padding: 2em;
+    background-color: #f4f4f4;
 }
-.service {
-    margin-bottom: 2em;
-}
-.service img {
-    max-width: 100%;
-    height: auto;
+.cta-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 form {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
 }
 form input, form textarea {
     width: 100%;
     margin-bottom: 1em;
     padding: 0.5em;
+}
+form button {
+    padding: 0.5em 1em;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
